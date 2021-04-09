@@ -36,7 +36,7 @@ spec:
   project: default
   source:
     path: config/argocd
-    repoURL: https://github.com/ryanzhang/gitops.git
+    repoURL: https://github.com.cnpmjs.org/ryanzhang/gitops.git
   syncPolicy:
     automated:
       prune: true

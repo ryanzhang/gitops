@@ -13,7 +13,7 @@ spec:
   project: default
   source:
     path: environments/dev/apps/app-taxi/overlays
-    repoURL: https://github.com/ryanzhang/gitops.git
+    repoURL: https://github.com.cnpmjs.org/ryanzhang/gitops.git
   syncPolicy:
     automated:
       prune: true

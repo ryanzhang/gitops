@@ -13,7 +13,7 @@ environments:
           bindings:
           - dev-app-taxi-taxi-binding
           - github-push-binding
-      source_url: https://github.com/ryanzhang/taxi.git
+      source_url: https://github.com.cnpmjs.org/ryanzhang/taxi.git
       webhook:
         secret:
           name: webhook-secret-dev-taxi
@@ -25,5 +25,5 @@ environments:
       - github-push-binding
       template: app-ci-template
 - name: stage
-gitops_url: https://github.com/ryanzhang/gitops.git
+gitops_url: https://github.com.cnpmjs.org/ryanzhang/gitops.git
 version: 1
